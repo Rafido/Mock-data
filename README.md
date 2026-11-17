@@ -10,7 +10,7 @@ A small JavaScript project for generating and serving fake user data for a React
 - `src/api/userApi.js`: front-end helpers to fetch users (`getUsers`) and delete a user (`deleteUser`).
 - `src/api/baseUrl.js`: points API calls at `http://localhost:3001/` in development.
 - `src/index.js`, `src/index.html`, `src/index.css`: the front-end app.
-- `buildScripts/srcServer.js`: development server.
+- `buildScripts/srcServer.js`: a webpack dev server on port 3000. It serves `src/index.html` and a hardcoded list of three users at `/users`. It doesn't read `db.json`.
 - `main.js`: a separate Express app on port 3000 with a `/grade` endpoint, unrelated to the mock data.
 
 ## Usage
