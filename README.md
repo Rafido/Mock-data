@@ -2,6 +2,8 @@
 
 A small JavaScript project for generating and serving fake user data for a React front end.
 
+Last updated: 2026-11-17
+
 ## What's in the repo
 
 - `buildScripts/mockDataSchema.js`: JSON schema describing 3–5 users, each with `id`, `firstName`, `lastName` and `email`.
