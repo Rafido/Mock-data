@@ -20,4 +20,3 @@ Generate new mock data:
 ```bash
 node buildScripts/generateMockData.js
 ```
-`
